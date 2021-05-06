@@ -1,0 +1,22 @@
+{
+  "name": "manage-messages",
+  "version": "1.0.0",
+  "description": "Manage user messages for Alerts app",
+  "main": "bin/index.js",
+  "author": "Brad Davis",
+  "bin": {
+    "help": "./bin/index.js",
+    "createMessage": "./bin/createMessage.js",
+    "deleteMessage": "./bin/deleteMessage.js",
+    "setMessage": "./bin/setMessage.js",
+    "resetMessages": "./bin/resetMessages.js",
+    "showMessages": "./bin/showMessages.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.900.0",
+    "uniqid": "^5.3.0"
+  }
+}
